@@ -124,7 +124,7 @@ def sendEmail(msg):
         elif " ".join(userCarrier[x]) == "Virgin-Mobile":
             Carrier = "@vmobl.com"
         elif " ".join(userCarrier[x]) == "MetroPCS":
-            Carrier = "@metropcs.sms.us"
+            Carrier = "@mymetropcs.com"
         
         sendUserName = " ".join(userName[x])
         sendPhone = " ".join(userPhone[x])
